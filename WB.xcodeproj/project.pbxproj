@@ -13,6 +13,16 @@
 		8A36DC7B2C2008C700CF941E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A36DC7A2C2008C700CF941E /* Preview Assets.xcassets */; };
 		8A36DC822C2057DF00CF941E /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A36DC812C2057DF00CF941E /* VerificationView.swift */; };
 		8A36DC842C20893200CF941E /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A36DC832C20893200CF941E /* OnboardingScreen.swift */; };
+		8A9570C32C2FDF1E0081DB32 /* ContentView_TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570C22C2FDF1E0081DB32 /* ContentView_TabView.swift */; };
+		8A9570C62C2FE17C0081DB32 /* ContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570C52C2FE17C0081DB32 /* ContactScreen.swift */; };
+		8A9570C82C2FE18E0081DB32 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570C72C2FE18E0081DB32 /* ContactRow.swift */; };
+		8A9570CA2C2FE1980081DB32 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570C92C2FE1980081DB32 /* SearchBarView.swift */; };
+		8A9570CC2C2FE1D70081DB32 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570CB2C2FE1D70081DB32 /* ChatScreen.swift */; };
+		8A9570CE2C2FE1E00081DB32 /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570CD2C2FE1E00081DB32 /* MoreScreen.swift */; };
+		8A9570D02C2FF2D30081DB32 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570CF2C2FF2D30081DB32 /* Resources.swift */; };
+		8A9570D32C2FFA540081DB32 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570D22C2FFA540081DB32 /* Contacts.swift */; };
+		8A9570D62C30153A0081DB32 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9570D52C30153A0081DB32 /* AvatarView.swift */; };
+		8AE830292C3D034E00271CEA /* ProfileAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE830282C3D034E00271CEA /* ProfileAccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,16 @@
 		8A36DC7A2C2008C700CF941E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A36DC812C2057DF00CF941E /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
 		8A36DC832C20893200CF941E /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		8A9570C22C2FDF1E0081DB32 /* ContentView_TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_TabView.swift; sourceTree = "<group>"; };
+		8A9570C52C2FE17C0081DB32 /* ContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScreen.swift; sourceTree = "<group>"; };
+		8A9570C72C2FE18E0081DB32 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		8A9570C92C2FE1980081DB32 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		8A9570CB2C2FE1D70081DB32 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		8A9570CD2C2FE1E00081DB32 /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
+		8A9570CF2C2FF2D30081DB32 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		8A9570D22C2FFA540081DB32 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		8A9570D52C30153A0081DB32 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		8AE830282C3D034E00271CEA /* ProfileAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +75,10 @@
 		8A36DC722C2008C500CF941E /* WB */ = {
 			isa = PBXGroup;
 			children = (
+				8A36DC752C2008C500CF941E /* ContentView.swift */,
 				8A36DC882C208BF500CF941E /* Screens */,
+				8A9570D42C30151F0081DB32 /* CustomView */,
+				8A9570D12C2FFA400081DB32 /* Models */,
 				8A36DC852C208B8400CF941E /* Support */,
 				8A36DC862C208B9300CF941E /* Resources */,
 				8A36DC872C208BA300CF941E /* View */,
@@ -84,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				8A36DC772C2008C700CF941E /* Assets.xcassets */,
+				8A9570CF2C2FF2D30081DB32 /* Resources.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -91,9 +115,9 @@
 		8A36DC872C208BA300CF941E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8A36DC832C20893200CF941E /* OnboardingScreen.swift */,
+				8A9570C22C2FDF1E0081DB32 /* ContentView_TabView.swift */,
 				8A36DC812C2057DF00CF941E /* VerificationView.swift */,
-				8A36DC752C2008C500CF941E /* ContentView.swift */,
+				8AE830282C3D034E00271CEA /* ProfileAccountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,8 +125,62 @@
 		8A36DC882C208BF500CF941E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				8AE830272C3D01DE00271CEA /* More */,
+				8AE830262C3D01D800271CEA /* Chat */,
+				8AE830252C3D01C400271CEA /* Onboarding */,
+				8A9570C42C2FE16D0081DB32 /* Contacts */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		8A9570C42C2FE16D0081DB32 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				8A9570C52C2FE17C0081DB32 /* ContactScreen.swift */,
+				8A9570C72C2FE18E0081DB32 /* ContactRow.swift */,
+				8A9570C92C2FE1980081DB32 /* SearchBarView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		8A9570D12C2FFA400081DB32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A9570D22C2FFA540081DB32 /* Contacts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A9570D42C30151F0081DB32 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8A9570D52C30153A0081DB32 /* AvatarView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8AE830252C3D01C400271CEA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8A36DC832C20893200CF941E /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8AE830262C3D01D800271CEA /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8A9570CB2C2FE1D70081DB32 /* ChatScreen.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8AE830272C3D01DE00271CEA /* More */ = {
+			isa = PBXGroup;
+			children = (
+				8A9570CD2C2FE1E00081DB32 /* MoreScreen.swift */,
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +254,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A36DC842C20893200CF941E /* OnboardingScreen.swift in Sources */,
+				8A9570CE2C2FE1E00081DB32 /* MoreScreen.swift in Sources */,
+				8A9570CC2C2FE1D70081DB32 /* ChatScreen.swift in Sources */,
+				8A9570CA2C2FE1980081DB32 /* SearchBarView.swift in Sources */,
+				8A9570D62C30153A0081DB32 /* AvatarView.swift in Sources */,
 				8A36DC822C2057DF00CF941E /* VerificationView.swift in Sources */,
 				8A36DC762C2008C500CF941E /* ContentView.swift in Sources */,
 				8A36DC742C2008C500CF941E /* WBApp.swift in Sources */,
+				8A9570C62C2FE17C0081DB32 /* ContactScreen.swift in Sources */,
+				8A9570D32C2FFA540081DB32 /* Contacts.swift in Sources */,
+				8AE830292C3D034E00271CEA /* ProfileAccountView.swift in Sources */,
+				8A9570D02C2FF2D30081DB32 /* Resources.swift in Sources */,
+				8A9570C32C2FDF1E0081DB32 /* ContentView_TabView.swift in Sources */,
+				8A9570C82C2FE18E0081DB32 /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
